@@ -33,7 +33,7 @@ class Question {
       setTimeout(function(){
         const question = Question._All[id-1] // Do Not Edit
         console.log(`...Question ${id} Loaded`) // Do Not Edit
-        resolve question
+        resolve [question]
       }, 1500)
     })
   }
